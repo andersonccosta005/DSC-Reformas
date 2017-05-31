@@ -1,0 +1,53 @@
+body {
+	background-color: #f7f7f7;
+}
+
+
+section.logo{
+	margin-top: 80px;
+	font-size: 25px;
+	text-align: justify;
+}
+
+section.logo img{
+	margin-top: 10px;
+}
+
+section.logo p{
+	 padding-top: 12px;
+}
+
+.portfolio{
+	margin-top: 20px;
+}
+
+.header ul li a{
+	color:#000;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.header ul li a:hover {
+	color: #fff;
+	background-color: #EBA535;
+}
+
+.slogan, .slogan_2 {
+	background-color: #EBA535;
+	padding: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+    color: #fff;
+    border: 5px dashed #000;
+}
+
+.slogan{
+	margin-top: 20px;
+}
+
+.slogan_2{
+	margin-top: 20px;
+}
+
