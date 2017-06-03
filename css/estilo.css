@@ -148,3 +148,19 @@ section.logo p{
 	color: #EBA535;
 	margin-top: 20px;
 }
+
+/* ESTILO DO MAPA */
+#gmap_canvas img {
+	max-width:none !important;
+	background:none !important;
+}
+
+.mapa-render, #gmap_canvas {
+	overflow: hidden;
+	height: 313px;
+	width: 100%;
+}
+
+#gmap_canvas {
+	width: 720px;
+}
