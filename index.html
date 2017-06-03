@@ -4,32 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>DSC Reformas</title>
   </head>
   <body>
-  <header class="header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbarCollapse" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </div>
+    <header class="header">
+  			<div class="container">
+          <div class="row">
+    				<nav class="col-md-8 col-md-offset-4 header_menu">
+    					<ul>
+    						<li><a href="#">Home</a></li>
+    						<li><a href="#">Serviços</a></li>
+                <li><a href="#">Projetos</a></li>
+    						<li><a href="#">Contato</a></li>
+    					</ul>
+    				</nav>
+  			</div>
       </div>
-    </nav>
   </header>
   <section class="logo">
     <div class="container">
@@ -89,9 +81,103 @@
               <p>Orçamento sem compromisso ! <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></p>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </section>
+  <section class="servicos">
+    <div class="container">
+      <h2 class="subtitulo">Serviços</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Colocação de Pastilhas</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Alvenaria e Pintura</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Serviço em Gesso</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+
+        </div>
+        <div class="col-md-6">
+          <h3>Eletrica e Hidraulica</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Pisos e Revestimentos</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+
+        </div>
+        <div class="col-md-6">
+          <h3>Limpeza Pós Obra</h3>
+          <p>Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. Nullam lectus justo</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projetos">
+    <div class="container">
+      <h2 class="subtitulo">Projetos</h2>
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+  <section class="contato">
+    <div class="container">
+      <h2 class="subtitulo">Contato</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Faça seu pedido de orçamento:</h3>
+          <form class="contato_form">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Nome">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea class="form-control" rows="3" id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6 contato_lista">
+          <h3>Endereço:</h3>
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:313px;width:555px;'><div id='gmap_canvas' style='height:313px;width:555px;'></div><div><small><a href="http://embedgooglemaps.com">embed google map</a></small></div><div><small><a href="http://www.proxysitereviews.com /lime-proxies/">lime proxies</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-23.385864,-47.34886829999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.385864,-47.34886829999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Dsc Reformas</strong><br>Avenida Ernesto Rodrigues,41, Jardim União- ITU/SP<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 copy">
+          <p>DSC Reformas - todos os direitos reservados</p>
+        </div>
+        <div class="col-md-6 footer_lista">
+          <ul>
+            <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (11) 99892-5498</li>
+            <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> dsc.reformas@gmail.com</li>
+            <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Itu/SP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
