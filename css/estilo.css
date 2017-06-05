@@ -106,17 +106,38 @@ section.logo p{
 }
 
 /*Serviços*/
+.servicos{
+	color:#fff;
+	background: #000;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+
+.servicos .subtitulo{
+	color: #EBA535;
+}
+.servicos .subtitulo::after{
+	background: #EBA535
+}
+
+.servicos h3{
+	color: #EBA535;
+}
 .servicos p{
 	text-align: justify;
 }
 
 /*Projetos*/
-
+.projetos{
+	margin-top: 20px;
+	padding: 10px 0;
+}
 
 /*Contatos*/
 .contato{
 	background: url("../img/textura_preto.jpg") repeat center;
 	padding: 20px 0;
+	margin-top: 20px;
 }
 .contato_form, .contato h3{
 	color: #fff;
