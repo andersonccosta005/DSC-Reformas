@@ -6,7 +6,7 @@
   <li>-CSS3</li>
   <li>-Bootstrap</li>
   <li>-JavaScript</li>
-  <li>-PHP</li>
+  <li>-PHPMail</li>
 </ul>
 
 
